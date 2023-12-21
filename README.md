@@ -1,13 +1,12 @@
 # crytpoclustering
 Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes
 
-### Instructions
+### Instructions for Assignment, as provided via Course repository
 
-1. Rename the `Crypto_Clustering_starter_code.ipynb` file as `Crypto_Clustering.ipynb`.
 
-2. Load the `crypto_market_data.csv` into a DataFrame.
+1. Load the `crypto_market_data.csv` into a DataFrame.
 
-3. Get the summary statistics and plot the data to see what the data looks like before proceeding.
+2. Get the summary statistics and plot the data to see what the data looks like before proceeding.
 
 #### Prepare the Data
 
@@ -85,5 +84,3 @@ Use the following steps to cluster the cryptocurrencies for the best value for `
     * Add the "coin_id" column in the `hover_cols` parameter to identify the cryptocurrency represented by each data point.
 * Answer the following question:
     * What is the impact of using fewer features to cluster the data using K-Means?
-
-> **Rewind** Recall that you learned how to create composite plots in a previous module. If you need a refresher on how to create these plots, review that module. You can also check [Composing Plots](https://holoviz.org/tutorial/Composing_Plots.html) in the hvPlot documentation.
